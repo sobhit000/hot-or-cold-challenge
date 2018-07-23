@@ -7,8 +7,8 @@ env:
 - CI=true
 deploy:
   provider: heroku
-  api_key: !binary |-
-    AwMDAwM=
+  api_key:
+    secure: VjbE9lFuZHnK0WA74xBRACH6FFpFEfeC9VVOmPuUJ9ZdfGcBK3HHA7N8muLLwpYm2D21uhT+oPas4eIfnfeAgiAPIHLk0S4oGlV/cdLWB0dtML7kB+Hg8MkoUZnijgvCxIGpiPaqPWu0DG4yxY7RVmjlc3Es8XW3ZzFueVYocq+ArahGgQCrZ9LjGAXCp0lGND3TWqrtlMWtkFORDQil4fqNaDso5tzQR10h2DXXn/sV+kWID1vhs57zADBAIT3/8Zz+oI8ssO9RzT9uxCEli90sNdgqeutPZx7QYGiJbKhTIpvjhl1ZCu68z3UwseQ7CW2wZT+TAOMaSDKiWxrnvUspS9jKWd1tfU0gfz8rla+5GIZPudoN2yA0BScxPdZ8hwF81z7iPP1xpLdPA2cRUw3PALFiTkEPi97W1mKGPoqpKR25JY4xr42FBmA3CqJnCgdjRkvf3Yya1UBmn4SAm4wmO/X3ulRkzOW7ZpB9yhPxPM3hpGPT8xAMGhIsmzVPmfqFndBiFDG5hMiKDNeBstCd/T/akAQjwk97wXE/IBWQbk9cI+RnA/6MTRA2oj2xKsDutnd30QpUdmQ0VWK3B9g63Wob0TkFO2pzldiS/RkRzr1KkXMNKFEbCFOI0BiHk0kmGTkQnn/I1vp7GfK3vLDXm8qu1cdnzTMwPU49dS4=
   app: vast-sierra-47463
   on:
     repo: sobhit000/hot-or-cold-challenge
